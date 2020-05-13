@@ -1,0 +1,30 @@
+.api_header {
+    display: flex;
+}
+
+.api1_data, .api2_data {
+    margin: 50px;
+}
+
+.api_header div, .api_row div, .api_row a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.api_body {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.api_row {
+    display: flex;
+    padding: 5px;
+}
+
+
+.api1_data {
+    margin-bottom:;
+}
