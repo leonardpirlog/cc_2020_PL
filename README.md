@@ -30,6 +30,12 @@ Datele prezente in aplicatie ***(https://covid19-ro-app.herokuapp.com/)*** sunt 
 
 **II) Coronavirus Stats in Romania**
 
+Link: https://apify.com/vanadragos/covid-19-romania
+
+Acesta este un API gratuit care permite accesarea datelor legate de Coronavirus, iar datele sunt colectate din sursa *https://stirioficiale.ro/informatii*. Stirioficiale.ro este un site demarat de Guvernul Romaniei, in parteneriat cu Code for Romania pentru ca oamenii sa acceseze mai usor informatiile despre COVID-19. Site-ul este actualizat zilnic, asadar si datele API-ului sunt updatate de la o zi la alta.
+
+Datele prezente in aplicatie ***(https://covid19-ro-app.herokuapp.com/)*** sunt obtinute printr-un GET al fisierului JSON care ne returneaza informatiile dorite. Acestea sunt mai specifice decat cele oferite de primul API, pentru ca putem extrage si numarul de persoane testate, dar si sursa din care acestea provin. De aceea, am selectat doar datele relevante din JSON si anume data la care au fost identificate cazurile, numarul persoanelor testate, recuperate si decedate, dar si link-ul sursa al informatiei pentru fiecare linie, in cazul in care utilizatorul doreste sa vizualizeze buletinul de informatii.
+
 #### 4. Flux de date
 
 #### 5. Capturi de ecran aplicatie
