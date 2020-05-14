@@ -38,4 +38,10 @@ Datele prezente in aplicatie ***(https://covid19-ro-app.herokuapp.com/)*** sunt 
 
 #### 4. Flux de date
 
+##### Exemple de request / response
+
+In ceea ce privesc ambele API-uri, prin utilizarea metodei GET si inserarea in tabel a campurilor "CountryCode", "Date", "Cases", "Status" am primit ca response codul tarii analizate (in situatia noastra - RO, date reprezentand data actualizarii datelor pe care am formatat-o in asa fel incat sa afiseze ziua + luna + anul, luna fiind in limba romana, cases - reprezinta numarul de cazuri confirmate iar "status" reprezinta statusul cazurilor, deoarece API-ul poate intoarce si numarul persoanelor vindecate, ori decedate.
+
+GET pe link
+
 #### 5. Capturi de ecran aplicatie
