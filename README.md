@@ -1,5 +1,6 @@
 # COVID-19 RO APP
 ## Aplicatie ce inglobeaza date numerice legate de impactul COVID-19 asupra Romaniei, actualizate in timp real 
+## https://covid19-ro-app.herokuapp.com/
 ### Documentatia aplicatiei
 
 #### 1. Introducere
@@ -9,6 +10,8 @@ Aplicatia WEB utilizeaza limbajele HTML, JavaScript si CSS pentru a proiecta in 
 Termenul de API este acronimul de la Application Programing Interface care in limba română se poate traduce ca interfață de programare a aplicațiilor și reprezinta un set de reguli și specificații cu ajutorul cărora un program poate accesa și folosi resursele oferite de un alt program. Cu alte cuvinte, un program care oferă API-uri permite altor programe să interacționeze cu acesta automat, de la program la program sau de la program la sistem de operare, fără să fie nevoie de folosirea unei interfețe grafice de utilizare (GUI) și fără cunoștințe legate de arhitectura sau elemente de programare ale programului ci doar folosirea specificațiilor de utilizare a API-ului oferit.
 
 REST este un stil de arhitectură pentru sistemele informatice aflate într-o rețea si termenul complet este Representational State Transfer.
+
+Aplicatia este host-uita pe platforma **heroku**.
 
 #### 2. Descriere problema
 
