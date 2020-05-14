@@ -19,9 +19,64 @@
     overflow: auto;
 }
 
+.api_header{
+    font-weight: bold;
+    background-color: #41d047;
+    font-size: 18px;
+}
+
 .api_row {
     display: flex;
     padding: 5px;
 }
 
+.api_body{
+    font-style:italic;
+    background-color: #4caf5045;
+}
 
+#titlu{
+    background-color: #c10808bf;
+    color: white;
+    font-style: italic;
+}
+
+body{
+    background-color:#d1f5f5;
+    font-family: calibri;
+}
+
+a{
+    font-weight:bold;
+}
+
+#parag1{
+    text-indent:50px;
+    color:#000000;
+    font-size:20px;
+    font-style:italic;
+}
+
+#parag2{
+    text-indent:50px;
+    color:#000000;
+    font-size: 18px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+#subtitlu{
+    color:white
+}
+
+#subtitlu span{
+    background-color: green;
+}
+
+#subcov1{
+    text-align: center;
+    font-style:italic;
+    color: black;
+    font-size:20px;
+    font-weight: normal;
+}

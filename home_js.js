@@ -71,7 +71,7 @@ function insertTrToApi2Table(rowData) {
         <div>${rowData.tested}</div>
         <div>${rowData.infected}</div>
         <div>${rowData.deceased}</div>
-        <a href="${rowData.sourceUrl}">link</a>
+        <a href="${rowData.sourceUrl}">LINK</a>
     `;
     tbody.append(tr);
 }
