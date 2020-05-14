@@ -6,9 +6,7 @@
  ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to AWS Cloud9!
+Documentatie
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+![](logo-color-sm.png)
+![Poza](home/ubuntu/images/test2.jpg)
