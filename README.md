@@ -2,4 +2,4 @@
 ## Aplicatie ce inglobeaza date numerice legate de impactul COVID-19 asupra Romaniei, actualizate in timp real 
 ### Documentatia aplicatiei
 
-###intro
+Introducere
