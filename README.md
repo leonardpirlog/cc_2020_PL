@@ -131,3 +131,31 @@ iar status-ul trebuie sa fie unul dintre cele 3: confirmed/deaths/recovered.
 API-ul **Coronavirus Stats in Romania** este host-uit pe site-ul apify.com care contine o librarie de API-uri si permite crearea unor actori care sa lucreze cu acest API. Pentru a putea beneficia de toate avantajele este nevoie de un cont APIFY care ofera o cheie de autentificare ce poate fi utilizata pentru a accesa anumite endpoint-uri ale API-ului.
 
 #### 5. Capturi de ecran aplicatie
+
+##### Home Page
+
+![Home](index.PNG)
+
+##### Header
+
+![Header](header.PNG)
+
+##### COVID-19 API
+
+![API1](api1.PNG)
+
+##### Sursa 1 - John Hopkins CSSE
+
+![Sursa1](sursa1.PNG)
+
+##### Coronavirus Stats in Romania API
+
+![API2](api2.PNG)
+
+##### Sursa 2 - stirioficiale.ro
+
+![Sursa2](sursa2.PNG)
+
+##### Secventa Cod
+
+![COD](cod1.PNG)
