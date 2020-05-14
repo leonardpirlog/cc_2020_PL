@@ -159,3 +159,9 @@ API-ul **Coronavirus Stats in Romania** este host-uit pe site-ul apify.com care 
 ##### Secventa Cod
 
 ![COD](cod1.PNG)
+
+#### 6. Referinte
+
+*http://www.w3bai.com/ro/tags/ref_httpmethods.html*
+*http://apify.com/*
+*https://docs.tibco.com/pub/tpm-rest/1.0.0/doc/html/GUID-BAA2DC07-D7DC-49BD-80A5-B4998B56B9BF.html*
