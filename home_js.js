@@ -69,7 +69,7 @@ function insertTrToApi2Table(rowData) {
     tr.innerHTML = `
         <div>${formattedDate}</div>
         <div>${rowData.tested}</div>
-        <div>${rowData.infected}</div>
+        <div>${rowData.recovered}</div>
         <div>${rowData.deceased}</div>
         <a href="${rowData.sourceUrl}">LINK</a>
     `;
