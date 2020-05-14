@@ -6,7 +6,11 @@
  ----------------------------------------------------------------- 
 
 
+<<<<<<< HEAD
 Documentatie
 
 ![](logo-color-sm.png)
 ![Poza](home/ubuntu/images/test2.jpg)
+=======
+![](test2.jpg)
+>>>>>>> efc2483d3740d3279bc4b68c2e35c8ffe6e5b020
