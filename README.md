@@ -4,6 +4,12 @@
 
 #### 1. Introducere
 
+Aplicatia WEB utilizeaza limbajele HTML, JavaScript si CSS pentru a proiecta in user interface datele preluate prin intermediul a doua API-uri.
+
+Termenul de API este acronimul de la Application Programing Interface care in limba română se poate traduce ca interfață de programare a aplicațiilor și reprezinta un set de reguli și specificații cu ajutorul cărora un program poate accesa și folosi resursele oferite de un alt program. Cu alte cuvinte, un program care oferă API-uri permite altor programe să interacționeze cu acesta automat, de la program la program sau de la program la sistem de operare, fără să fie nevoie de folosirea unei interfețe grafice de utilizare (GUI) și fără cunoștințe legate de arhitectura sau elemente de programare ale programului ci doar folosirea specificațiilor de utilizare a API-ului oferit.
+
+REST este un stil de arhitectură pentru sistemele informatice aflate într-o rețea si termenul complet este Representational State Transfer.
+
 #### 2. Descriere problema
 
 Cu totii cunoastem pandemia globala de **coronaviroza COVID-19** in care ne aflam, motiv pentru care aceasta reprezinta unul dintre cele mai importante subiecte pe plan mondial. Este esential sa fim la curent cu evolutia acestei pandemii si consider ca este o responsabilitate morala ca fiecare persoana sa respecte prevederile Institutiilor de Sanatate Publica si a Organizatiei Mondiale a Sanatatii pentru a ii proteja pe cei din jurul nostru, si nu in ultimul rand pe noi insine.
@@ -16,7 +22,7 @@ Astfel, in contextul pandemiei globale COVID-19, o solutie pe care o consider be
 
 Infrastructura proiectului este constituita dintr-o aplicatie WEB ce inglobeaza HTML, JavaScript si CSS si se bazeaza pe doua API-uri publice care ofera date relevante despre COVID-19 sub forma unor JSON-uri.
 
-Concret, in realizarea aplicatiei au fost utilizate 2 API-uri:
+Concret, in realizarea aplicatiei au fost utilizate 2 API-uri. Am considerat ca utilizarea a doua API-uri va oferi aplicatiei un plus de certitudine in privinta datelor, acestea fiind corelate din doua surse diferite, una pe **pe plan mondial** iar cealalta cu provenienta **nationala**.
 
 **I) COVID-19 API**
 
@@ -75,6 +81,8 @@ In ceea ce priveste al doilea API - prin utilizarea metodei GET si inserarea in 
 
 Request-ul este realizat prin: https://api.apify.com/v2/datasets/n1XtXTelVG5dJhDhy/items?format=json&clean=1
 
+Exemplu JSON:
+
 ```
 {
   "infected": 15778,
@@ -101,5 +109,25 @@ Request-ul este realizat prin: https://api.apify.com/v2/datasets/n1XtXTelVG5dJhD
   "README": "https://apify.com/vanadragos/covid-19-romania"
 }
 ```
+##### Metode HTTP
+
+Metoda utilizata pentru preluarea datelor prin intermediul ambelor API-uri este GET care solicita datele din resursa specificata, reprezentata de URL.
+
+La primul API a fost nevoie de modificarea endpoint-ului API pentru a returna datele de interes.
+
+```
+https://api.covid19api.com/country/<TARA_ALEASA>/status/<CONFIRMED/DEATHS/RECOVERED>
+```
+
+unde tara aleasa trebuie sa fie una dintre
+
+```
+https://api.covid19api.com/countries
+```
+iar status-ul trebuie sa fie unul dintre cele 3: confirmed/deaths/recovered.
+
+##### Autentificare si autorizare servicii utilizate (daca este cazul)
+
+API-ul **Coronavirus Stats in Romania** este host-uit pe site-ul apify.com care contine o librarie de API-uri si permite crearea unor actori care sa lucreze cu acest API. Pentru a putea beneficia de toate avantajele este nevoie de un cont APIFY care ofera o cheie de autentificare ce poate fi utilizata pentru a accesa anumite endpoint-uri ale API-ului.
 
 #### 5. Capturi de ecran aplicatie
