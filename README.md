@@ -71,5 +71,35 @@ Exemplu JSON:
     "Date": "2020-05-12T00:00:00Z"
   },
 ```
+In ceea ce priveste al doilea API - prin utilizarea metodei GET si inserarea in tabel a campurilor "date", "tested", "recovered", "sourceUrl" am primit ca response - "date" reprezentand data actualizarii datelor, pe care am formatat-o in asa fel incat sa afiseze ziua + luna + anul, luna fiind in limba romana, "tested" - reprezinta numarul de persoane testate, "recovered" reprezinta numarul persoanelor vindecate, iar "sourceUrl" ne intoarce link-ul cu sursa de unde au fost prealuate datele. Am considerat ca acestea sunt datele complementar relevante pe care utilizatorul doreste sa le vada la prima accesare a paginii (al doilea API afiseaza datele sub primul).
+
+Request-ul este realizat prin: https://api.apify.com/v2/datasets/n1XtXTelVG5dJhDhy/items?format=json&clean=1
+
+```
+{
+  "infected": 15778,
+  "tested": 269183,
+  "recovered": 7685,
+  "deceased": 991,
+  "country": "Romania",
+  "historyData": "https://api.apify.com/v2/datasets/n1XtXTelVG5dJhDhy/items?format=json&clean=1",
+  "sourceUrl": "https://stirioficiale.ro/informatii/buletin-de-presa-12-mai-2020-ora-13-00",
+  "lastUpdatedAtSource": "2020-05-12T13:00:00.000Z",
+  "lastUpdatedAtApify": "2020-05-12T10:00:00.000Z",
+  "README": "https://apify.com/vanadragos/covid-19-romania"
+},
+{
+  "infected": 16002,
+  "tested": 277804,
+  "recovered": 7961,
+  "deceased": 1016,
+  "country": "Romania",
+  "historyData": "https://api.apify.com/v2/datasets/n1XtXTelVG5dJhDhy/items?format=json&clean=1",
+  "sourceUrl": "",
+  "lastUpdatedAtSource": "2020-05-13T13:00:00.000Z",
+  "lastUpdatedAtApify": "2020-05-13T09:55:00.000Z",
+  "README": "https://apify.com/vanadragos/covid-19-romania"
+}
+```
 
 #### 5. Capturi de ecran aplicatie
